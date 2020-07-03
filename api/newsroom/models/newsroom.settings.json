@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsrooms",
+  "info": {
+    "name": "newsroom"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "news": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publishes",
+  "info": {
+    "name": "publish"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "field": {
+      "type": "dynamiczone",
+      "components": []
+    }
+  }
+}
