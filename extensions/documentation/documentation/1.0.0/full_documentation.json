@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "07/03/2020 4:35:00 PM"
+    "x-generation-date": "07/04/2020 7:24:12 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3744,7 +3744,13 @@
           "id": {
             "type": "string"
           },
-          "blog": {
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "cover": {
             "type": "array",
             "items": {
               "required": [
@@ -3807,32 +3813,16 @@
                 }
               }
             }
-          },
-          "json": {
-            "type": "object"
-          },
-          "sum": {
-            "type": "string",
-            "enum": [
-              "a",
-              "b",
-              "c"
-            ]
           }
         }
       },
       "NewBlogs": {
         "properties": {
-          "json": {
-            "type": "object"
+          "title": {
+            "type": "string"
           },
-          "sum": {
-            "type": "string",
-            "enum": [
-              "a",
-              "b",
-              "c"
-            ]
+          "content": {
+            "type": "string"
           }
         }
       },

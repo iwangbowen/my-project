@@ -522,7 +522,13 @@
           "id": {
             "type": "string"
           },
-          "blog": {
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "cover": {
             "type": "array",
             "items": {
               "required": [
@@ -585,32 +591,16 @@
                 }
               }
             }
-          },
-          "json": {
-            "type": "object"
-          },
-          "sum": {
-            "type": "string",
-            "enum": [
-              "a",
-              "b",
-              "c"
-            ]
           }
         }
       },
       "NewBlogs": {
         "properties": {
-          "json": {
-            "type": "object"
+          "title": {
+            "type": "string"
           },
-          "sum": {
-            "type": "string",
-            "enum": [
-              "a",
-              "b",
-              "c"
-            ]
+          "content": {
+            "type": "string"
           }
         }
       }

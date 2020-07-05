@@ -9,7 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "blog": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "cover": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,17 +25,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "json": {
-      "type": "json"
-    },
-    "sum": {
-      "type": "enumeration",
-      "enum": [
-        "a",
-        "b",
-        "c"
-      ]
     }
   }
 }
